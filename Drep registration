@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Right of the people",
+    "motivations": "I believe the Cardano network provides us with the best opportunity to construct prosperity for a global community.  ",
+    "objectives": "It has become necessary for people of this World to dissolve the political practices which no longer serve the vision of prosperity of its People.\n\nI hold these truths to be self evident: That the People are endowed with certain unalienable Rights, that among these are life, liberty, economic independence, and the pursuit of Happiness. \n\nWhenever any form of government becomes destructive of these ends, it is the Right of the People to alter it. \n  \nI hope to guide Cardano governance to these ends and with these principles. ",
+    "paymentAddress": "addr1qxj4ttfwpxlcsdp2m55u2wgpcm2s85r5m3ehypg2k7xj40g9p0j20452t0pu9y8xax06tntvd6znjwwmgp4zxf5mdryst65t57",
+    "qualifications": "I am a licensed Architect and a licensed orthopedic specialist doctor of Physical Therapy.   \nI enjoy analyzing and solving complex systems.  "
+  }
+}
